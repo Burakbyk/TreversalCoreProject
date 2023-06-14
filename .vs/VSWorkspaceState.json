@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\TraversalCoreProje",
+    "\\TraversalCoreProje\\DataAccessLayer",
+    "\\TraversalCoreProje\\DataAccessLayer\\Repository",
     "\\TraversalCoreProje\\EntityLayer",
     "\\TraversalCoreProje\\EntityLayer\\Concrete"
   ],
-  "SelectedNode": "\\TraversalCoreProje\\EntityLayer\\Concrete\\Contact.cs",
+  "SelectedNode": "\\TraversalCoreProje\\DataAccessLayer\\Repository\\GenericRepository.cs",
   "PreviewInSolutionExplorer": false
 }

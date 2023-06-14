@@ -14,7 +14,7 @@ namespace EntityLayer.Concrete
 
         public string Title { get; set; }
 
-        public int Description { get; set; }
+        public string Description { get; set; }
         
        
 
