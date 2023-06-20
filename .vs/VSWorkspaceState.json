@@ -2,11 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\TraversalCoreProje",
-    "\\TraversalCoreProje\\DataAccessLayer",
-    "\\TraversalCoreProje\\DataAccessLayer\\Repository",
     "\\TraversalCoreProje\\EntityLayer",
-    "\\TraversalCoreProje\\EntityLayer\\Concrete"
+    "\\TraversalCoreProje\\EntityLayer\\Concrete",
+    "\\TraversalCoreProje\\TraversalCoreProje",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Views",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Destination",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared\\Components"
   ],
-  "SelectedNode": "\\TraversalCoreProje\\DataAccessLayer\\Repository\\GenericRepository.cs",
+  "SelectedNode": "\\TraversalCoreProje\\TraversalCoreProje.sln",
   "PreviewInSolutionExplorer": false
 }
