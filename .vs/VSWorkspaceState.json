@@ -2,14 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\TraversalCoreProje",
-    "\\TraversalCoreProje\\EntityLayer",
-    "\\TraversalCoreProje\\EntityLayer\\Concrete",
     "\\TraversalCoreProje\\TraversalCoreProje",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Areas",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Member",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Member\\Views",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Member\\Views\\Reservation",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views",
-    "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Destination",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Views\\MemberLayoutPartial",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared\\Components"
   ],
-  "SelectedNode": "\\TraversalCoreProje\\TraversalCoreProje.sln",
+  "SelectedNode": "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared",
   "PreviewInSolutionExplorer": false
 }
