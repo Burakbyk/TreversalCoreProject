@@ -197,3 +197,6 @@ C:\Users\Burak\Desktop\GitHub-Projects\TreversalCoreProject\TraversalCoreProje\T
 C:\Users\Burak\Desktop\GitHub-Projects\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\MemberLayoutPartial\_NavbarPartial.cshtml.g.cs
 C:\Users\Burak\Desktop\GitHub-Projects\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\MemberLayoutPartial\_RightBarPartial.cshtml.g.cs
 C:\Users\Burak\Desktop\GitHub-Projects\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\MemberLayoutPartial\_ScriptPartial.cshtml.g.cs
+C:\Users\Burak\Desktop\GitHub-Projects\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\DashBoard\Index.cshtml.g.cs
+C:\Users\Burak\Desktop\GitHub-Projects\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_ProfileInformation\Default.cshtml.g.cs
+C:\Users\Burak\Desktop\GitHub-Projects\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_GuideList\Default.cshtml.g.cs
