@@ -10,8 +10,9 @@
     "\\TraversalCoreProje\\TraversalCoreProje\\Views",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views\\MemberLayoutPartial",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared",
-    "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared\\Components"
+    "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared\\Components",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared\\Components\\_GuideList"
   ],
-  "SelectedNode": "\\TraversalCoreProje\\TraversalCoreProje.sln",
+  "SelectedNode": "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared\\Components\\_GuideList\\Default.cshtml",
   "PreviewInSolutionExplorer": false
 }

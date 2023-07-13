@@ -40,7 +40,7 @@ namespace TraversalCoreProje.Areas.Member.Controllers
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             if(p.Image != null)
             {
-                var resource = Directory.GetCurrentDirectory();
+                var resource  = Directory.GetCurrentDirectory();
                 var extension = Path.GetExtension(p.Image.FileName);
                 var imagename = Guid.NewGuid() + extension;
                 var saveLocation = resource + "/wwwroot/UserImages/" + imagename;
