@@ -22,6 +22,8 @@ namespace BusinessLayer.Abstract
 
         //List<T> GetByFilter(Expression<Func<T, bool>> filter);
 
+       
+
 
 
 
