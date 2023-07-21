@@ -4,15 +4,14 @@
     "\\TraversalCoreProje",
     "\\TraversalCoreProje\\TraversalCoreProje",
     "\\TraversalCoreProje\\TraversalCoreProje\\Areas",
-    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Member",
-    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Member\\Views",
-    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Member\\Views\\Reservation",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Admin",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Admin\\Views",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Admin\\Views\\Mail",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views",
-    "\\TraversalCoreProje\\TraversalCoreProje\\Views\\MemberLayoutPartial",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared\\Components",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared\\Components\\_GuideList"
   ],
-  "SelectedNode": "\\TraversalCoreProje\\TraversalCoreProje.sln",
+  "SelectedNode": "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Admin\\Views\\Mail\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
