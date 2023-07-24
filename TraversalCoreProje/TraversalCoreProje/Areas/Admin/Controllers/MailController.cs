@@ -41,7 +41,8 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
             client.Authenticate("traversalcore7@gmail.com", "iorjggflivtqquzm");
             client.Send(mimeMessage);
             client.Disconnect(true);
-            return RedirectToAction("Index");
+            return RedirectToAction("Index")
+                ;
         }
     }
 }

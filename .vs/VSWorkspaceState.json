@@ -5,13 +5,12 @@
     "\\TraversalCoreProje\\TraversalCoreProje",
     "\\TraversalCoreProje\\TraversalCoreProje\\Areas",
     "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Admin",
-    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Admin\\Views",
-    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Admin\\Views\\Mail",
+    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Admin\\Controllers",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared\\Components",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared\\Components\\_GuideList"
   ],
-  "SelectedNode": "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Admin\\Views\\Mail\\Index.cshtml",
+  "SelectedNode": "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Admin\\Controllers\\MailController.cs",
   "PreviewInSolutionExplorer": false
 }
