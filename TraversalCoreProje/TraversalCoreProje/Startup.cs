@@ -44,7 +44,8 @@ namespace TraversalCoreProje
 			.AddErrorDescriber<CustomIdentityValidator>()
 			.AddEntityFrameworkStores<Context>();
 
-			
+
+			services.AddHttpClient();
 
 			services.ContainerDependencies();
 
