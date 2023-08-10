@@ -41,6 +41,20 @@ using TraversalCoreProje.Areas.Admin.Models;
 #line hidden
 #nullable disable
 #nullable restore
+#line 6 "C:\Users\Burak\Desktop\GitHub-Projects\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\_ViewImports.cshtml"
+using TraversalCoreProje.CQRS.Results.DestinationResults;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Users\Burak\Desktop\GitHub-Projects\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\_ViewImports.cshtml"
+using TraversalCoreProje.CQRS.Commands.DestinationCommands;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\Burak\Desktop\GitHub-Projects\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\User\ReservationUser.cshtml"
 using EntityLayer.Concrete;
 
@@ -48,7 +62,7 @@ using EntityLayer.Concrete;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"77dd372837f2a4fab2ba3489ca568d2dbad1a151", @"/Areas/Admin/Views/User/ReservationUser.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"678a41d580b08f084c7933e6ecb32b8b7d402596", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f2f329b4f9c2cc8b2ce693343c4e5d9382297ece", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_User_ReservationUser : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Reservation>>
     #nullable disable

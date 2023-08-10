@@ -3,15 +3,14 @@
     "",
     "\\TraversalCoreProje",
     "\\TraversalCoreProje\\TraversalCoreProje",
-    "\\TraversalCoreProje\\TraversalCoreProje\\Areas",
-    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Admin",
-    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Admin\\Views",
-    "\\TraversalCoreProje\\TraversalCoreProje\\Areas\\Admin\\Views\\Announcement",
+    "\\TraversalCoreProje\\TraversalCoreProje\\CQRS",
+    "\\TraversalCoreProje\\TraversalCoreProje\\CQRS\\Handlers",
+    "\\TraversalCoreProje\\TraversalCoreProje\\CQRS\\Handlers\\GuideHandlers",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared\\Components",
     "\\TraversalCoreProje\\TraversalCoreProje\\Views\\Shared\\Components\\_GuideList"
   ],
-  "SelectedNode": "\\TraversalCoreProje\\TraversalCoreProje.sln",
+  "SelectedNode": "\\TraversalCoreProje\\TraversalCoreProje\\CQRS\\Handlers\\GuideHandlers\\GetAllGuideQueryHandler.cs",
   "PreviewInSolutionExplorer": false
 }

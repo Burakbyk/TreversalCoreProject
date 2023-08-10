@@ -47,8 +47,22 @@ using TraversalCoreProje.Areas.Admin.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "C:\Users\Burak\Desktop\GitHub-Projects\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\_ViewImports.cshtml"
+using TraversalCoreProje.CQRS.Results.DestinationResults;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Users\Burak\Desktop\GitHub-Projects\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\_ViewImports.cshtml"
+using TraversalCoreProje.CQRS.Commands.DestinationCommands;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"17ddcb94235d615dee6a4efa8f1c6e59aba2e259", @"/Areas/Admin/Views/ApiMovie/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"678a41d580b08f084c7933e6ecb32b8b7d402596", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f2f329b4f9c2cc8b2ce693343c4e5d9382297ece", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_ApiMovie_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<ApiMovieViewModel>>
     #nullable disable

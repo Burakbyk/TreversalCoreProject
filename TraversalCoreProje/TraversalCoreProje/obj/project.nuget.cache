@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gFX5MWZsg8oEXaCKJorqQSf4qFQd/Vw1QCOunAUYBIZ3cZ6ndsc4ZnFQv47Hs7QAKCxqiCf0suo+E+DT7pnx5A==",
+  "dgSpecHash": "Uqef/PyImBE3oaJfyQUOiKvUfXNWDa404Vx1G/v+wPChfHkV75wIzLJl4TzhQDLUS3pwb2ZG1DIBsJYRsJJPpA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\TraversalCoreProje\\TraversalCoreProje.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,9 @@
     "C:\\Users\\Burak\\.nuget\\packages\\irony.netcore\\1.0.11\\irony.netcore.1.0.11.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\itextsharp.lgplv2.core\\1.9.2\\itextsharp.lgplv2.core.1.9.2.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\mailkit\\3.4.1\\mailkit.3.4.1.nupkg.sha512",
+    "C:\\Users\\Burak\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\Burak\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Burak\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
