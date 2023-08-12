@@ -15,7 +15,7 @@ namespace DataAccessLayer.Concrete
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-H8LDRM0\\SQLBURAK;database=TraversalDB;integrated security=true;"); 
+            optionsBuilder.UseSqlServer("server=DESKTOP-DEL8JV9;database=TraversalDB;integrated security=true;"); 
         }
 
         public DbSet<About> Abouts { get; set; }
@@ -45,6 +45,8 @@ namespace DataAccessLayer.Concrete
         public DbSet<ContactUs> ContactUses { get; set; }
 
         public DbSet<Announcement> Announcements { get; set; }
+
+        public DbSet<Account> Accounts { get; set; }
 
 
     }

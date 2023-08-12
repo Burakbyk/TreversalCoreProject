@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj": {}
+    "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,21 +26,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj": {
-                "projectPath": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj"
+              "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj": {
+                "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj"
               },
-              "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -98,18 +97,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\Burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -124,15 +123,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -192,18 +190,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj": {
+    "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj",
         "projectName": "DTOLayer",
-        "projectPath": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj",
+        "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\DTOLayer\\DTOLayer.csproj",
         "packagesPath": "C:\\Users\\Burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\DTOLayer\\obj\\",
+        "outputPath": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\DTOLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -218,7 +216,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -252,18 +249,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\Burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Burak\\Desktop\\GitHub-Projects\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\Burak\\Documents\\GitHub\\TreversalCoreProject\\TraversalCoreProje\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -278,7 +275,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -342,7 +338,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
