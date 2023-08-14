@@ -1,7 +1,5 @@
-﻿
-@using EntityLayer.Concrete
+﻿﻿@using EntityLayer.Concrete
 @model List<Testimonial>
-
 <section class="w3l-clients" id="clients">
     <!-- /grids -->
     <div class="cusrtomer-layout py-5">
@@ -13,7 +11,7 @@
             <!-- /grids -->
             <div class="testimonial-width">
                 <div id="owl-demo1" class="owl-two owl-carousel owl-theme">
-                    @foreach(var item in Model)
+                    @foreach (var item in Model)
                     {
                         <div class="item">
                             <div class="testimonial-content">
@@ -35,14 +33,9 @@
                             </div>
                         </div>
                     }
-                   
-                  
-
 
                 </div>
             </div>
         </div>
-     
     </div>
-  
 </section>
