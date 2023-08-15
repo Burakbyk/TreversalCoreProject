@@ -22,6 +22,12 @@ namespace EntityLayer.Concrete
 
         public string InstagramUrl { get; set; }
 
+        public string Description2 { get; set; }
+
+        public string GuideListImage { get; set; }
+
         public bool Status { get; set; }
+
+        public List<Destination> Destinations { get; set; }
     }
 }

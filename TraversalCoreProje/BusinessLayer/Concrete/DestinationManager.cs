@@ -35,7 +35,7 @@ namespace BusinessLayer.Concrete
 
         public Destination TGetDestinationWithGuide(int id)
         {
-            throw new NotImplementedException();
+            return _destinationDal.GetDestinationWithGuide(id);
         }
 
         public List<Destination> TGetLast4Destinations()
@@ -52,5 +52,7 @@ namespace BusinessLayer.Concrete
         {
            _destinationDal.Update(t);
         }
+
+        
     }
 }

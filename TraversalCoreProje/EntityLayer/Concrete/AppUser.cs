@@ -20,7 +20,9 @@ namespace EntityLayer.Concrete
 
         public List<Reservation> Reservations { get; set; }
 
+        public List<Comment> Comments { get; set; }
 
+        
 
     }
 }

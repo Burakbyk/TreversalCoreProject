@@ -11,6 +11,7 @@ namespace DataAccessLayer.Abstract
     {
 
         public List<Comment> GetListCommentWithDestination();
+        public List<Comment> GetListCommentWithDestinationAndUser(int id);
 
     }
 }
