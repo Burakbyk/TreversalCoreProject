@@ -33,8 +33,15 @@ using EntityLayer.Concrete;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\Views\_ViewImports.cshtml"
+using DTOLayer.DTOs;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"470f4fb1857e9cc8c940f8bdc7d25d6871da122e379b06cafcc445deb7774391", @"/Views/LayoutPartial/_FooterPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"36bc64bd98a8fc5d8b6ef22b603972848ee6794ab92314c8c94029c516459200", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"46e5407401c47e9f5eabc3a7f0ae9283ecfbaa688c6280f54cde099587a7a85b", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_LayoutPartial__FooterPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -114,7 +121,7 @@ using EntityLayer.Concrete;
                         <div class=""end-column"">
                             <h4>Kampanya ve indirimler için abone olun.</h4>
                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "470f4fb1857e9cc8c940f8bdc7d25d6871da122e379b06cafcc445deb77743917552", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "470f4fb1857e9cc8c940f8bdc7d25d6871da122e379b06cafcc445deb77743917771", async() => {
                 WriteLiteral("\r\n                                <input type=\"email\" name=\"email\" placeholder=\"Mail Adresiniz\"");
                 BeginWriteAttribute("required", " required=\"", 2759, "\"", 2770, 0);
                 EndWriteAttribute();

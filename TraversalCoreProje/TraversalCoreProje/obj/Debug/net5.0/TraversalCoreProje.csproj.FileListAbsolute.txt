@@ -583,3 +583,4 @@ C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\Traversa
 C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_GuideDetails\Default.cshtml.g.cs
 C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_Testimonial\Default.cshtml.g.cs
 C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Guide\Index.cshtml.g.cs
+C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs

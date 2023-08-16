@@ -33,8 +33,15 @@ using EntityLayer.Concrete;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\Views\_ViewImports.cshtml"
+using DTOLayer.DTOs;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"6f56ac9fc87a831906327806f175b45ec7a6ca5ab0626375111da622484f01a8", @"/Views/Destination/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"36bc64bd98a8fc5d8b6ef22b603972848ee6794ab92314c8c94029c516459200", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"46e5407401c47e9f5eabc3a7f0ae9283ecfbaa688c6280f54cde099587a7a85b", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Destination_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Destination>>
     #nullable disable
@@ -77,7 +84,7 @@ using EntityLayer.Concrete;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<!doctype html>\r\n<html lang=\"zxx\">\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f56ac9fc87a831906327806f175b45ec7a6ca5ab0626375111da622484f01a85253", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f56ac9fc87a831906327806f175b45ec7a6ca5ab0626375111da622484f01a85472", async() => {
                 WriteLiteral(@"
     <!-- about breadcrumb -->
     <section class=""w3l-about-breadcrumb text-left"">
@@ -177,7 +184,7 @@ WriteAttributeValue("", 1547, item.DestinationID, 1547, 19, false);
 #line hidden
 #nullable disable
                 WriteLiteral("                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "6f56ac9fc87a831906327806f175b45ec7a6ca5ab0626375111da622484f01a810525", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "6f56ac9fc87a831906327806f175b45ec7a6ca5ab0626375111da622484f01a810744", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -192,7 +199,7 @@ WriteAttributeValue("", 1547, item.DestinationID, 1547, 19, false);
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f56ac9fc87a831906327806f175b45ec7a6ca5ab0626375111da622484f01a811729", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f56ac9fc87a831906327806f175b45ec7a6ca5ab0626375111da622484f01a811948", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

@@ -33,8 +33,15 @@ using EntityLayer.Concrete;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\TraversalCoreProje\Views\_ViewImports.cshtml"
+using DTOLayer.DTOs;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"26d003a2f0254cf3d7358e1f5d2609a562003aff6054db0c9561985bd23db253", @"/Views/Comment/AddComment.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"36bc64bd98a8fc5d8b6ef22b603972848ee6794ab92314c8c94029c516459200", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"46e5407401c47e9f5eabc3a7f0ae9283ecfbaa688c6280f54cde099587a7a85b", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Comment_AddComment : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -77,7 +84,7 @@ using EntityLayer.Concrete;
 #line hidden
 #nullable disable
             WriteLiteral("    <div class=\"leave-comment-form mt-5\" id=\"reply\">\r\n        <h4 class=\"side-title mb-2\">Bir yorum bırakın</h4>\r\n        <p class=\"mb-4\">\r\n            İşaretli alanları doldurmanız gerekmektedir.\r\n        </p>\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "26d003a2f0254cf3d7358e1f5d2609a562003aff6054db0c9561985bd23db2535198", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "26d003a2f0254cf3d7358e1f5d2609a562003aff6054db0c9561985bd23db2535417", async() => {
                 WriteLiteral("\r\n            <input type=\"hidden\" name=\"DestinationID\"");
                 BeginWriteAttribute("value", " value=\"", 385, "\"", 408, 1);
 #nullable restore
