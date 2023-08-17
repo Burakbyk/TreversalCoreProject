@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using SignalRApi.DAL;
 using SignalRApi.Model;
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace SignalRApi.Controllers
 {
@@ -12,12 +14,10 @@ namespace SignalRApi.Controllers
     public class VisitorController : ControllerBase
     {
         private readonly VisitorService _visitorService;
-
         public VisitorController(VisitorService visitorService)
         {
             _visitorService = visitorService;
         }
-
         [HttpGet]
         public IActionResult CreateVisitor()
         {
@@ -32,16 +32,11 @@ namespace SignalRApi.Controllers
                         CityVisitCount = random.Next(100, 2000),
                         VisitDate = DateTime.Now.AddDays(x)
                     };
-
-                    _visitorService.SaveVisitor(newVisitor).Wait();
+                    //_visitorService.SaveVisitor(newVisitor).Wait();
                     System.Threading.Thread.Sleep(1000);
-
-
-
                 }
             });
             return Ok("Ziyaretçiler başarılı bir şekilde eklendi");
-        
         }
     }
 }

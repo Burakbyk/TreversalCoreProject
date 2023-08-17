@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using SignalRApi.DAL;
+using SignalRApi.Hubs;
 using SignalRApi.Model;
 using System;
 using System.Collections.Generic;
@@ -31,10 +32,17 @@ namespace SignalRApi
             services.AddScoped<VisitorService>();
             services.AddSignalR();
 
-            services.AddEntityFrameworkNpgsql().AddDbContext<Context>(opt =>           
-            opt.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddCors(options => options.AddPolicy("CorsPolicy",
+                builder =>
+                {
+                    builder.AllowAnyHeader()
+                           .AllowAnyMethod()
+                           .SetIsOriginAllowed((host) => true)
+                           .AllowCredentials();
+                }));
 
-            
+            services.AddEntityFrameworkNpgsql().AddDbContext<Context>(opt =>
+            opt.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -53,12 +61,13 @@ namespace SignalRApi
             }
 
             app.UseRouting();
-
+            app.UseCors("CorsPolicy");
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapHub<VisitorHub>("/VisitorHub");
             });
         }
     }
