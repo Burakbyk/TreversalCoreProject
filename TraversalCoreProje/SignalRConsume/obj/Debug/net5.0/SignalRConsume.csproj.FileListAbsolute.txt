@@ -118,3 +118,5 @@ C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\SignalRC
 C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\SignalRConsume\obj\Debug\net5.0\SignalRConsume.pdb
 C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\SignalRConsume\obj\Debug\net5.0\SignalRConsume.genruntimeconfig.cache
 C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\SignalRConsume\obj\Debug\net5.0\ref\SignalRConsume.dll
+C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\SignalRConsume\obj\Debug\net5.0\Razor\Views\Home\Index3.cshtml.g.cs
+C:\Users\Burak\Documents\GitHub\TreversalCoreProject\TraversalCoreProje\SignalRConsume\obj\Debug\net5.0\Razor\Views\Home\Index2.cshtml.g.cs

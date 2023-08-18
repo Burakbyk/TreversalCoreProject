@@ -41,16 +41,15 @@ namespace SignalRApiForSql
                            .AllowCredentials();
                 }));
 
-
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SignalRApiForSql", Version = "v1" });
             });
 
-            services.AddDbContext<Context>(opt =>
+            services.AddDbContext<Context>(options =>
             {
-                opt.UseSqlServer(Configuration["DefaultConnection"]);
+                options.UseSqlServer(Configuration["DefaultConnection"]);
             });
         }
 
