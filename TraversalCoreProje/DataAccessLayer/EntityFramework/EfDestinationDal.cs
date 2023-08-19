@@ -21,5 +21,15 @@ namespace DataAccessLayer.EntityFramework
             
             }
         }
+
+        public List<Destination> GetLast4Destinations()
+        {
+            using(var context = new Context())
+            {
+            
+                var values = context.Destinations.Take(4).OrderByDescending(x=>x.DestinationID).ToList();
+                return values;
+            }
+        }
     }
 }
