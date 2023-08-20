@@ -1,4 +1,5 @@
 ﻿
+using BusinessLayer.Abstract;
 using BusinessLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,18 +7,18 @@ namespace TraversalCoreProje.ViewComponents.MemberDashboard
 {
     public class _LastDestinations : ViewComponent
     {
-        DestinationManager _destinationManager;
+        private readonly IDestinationService _destinationService;
 
-        public _LastDestinations(DestinationManager destinationManager)
+        public _LastDestinations(IDestinationService destinationService)
         {
-            _destinationManager = destinationManager;
+            _destinationService = destinationService;
         }
 
         public IViewComponentResult Invoke()
         {
-            var values = _destinationManager.TGetLast4Destinations();
+            var values = _destinationService.TGetLast4Destinations();
 
-            return View();
+            return View(values);
         }
         
     }

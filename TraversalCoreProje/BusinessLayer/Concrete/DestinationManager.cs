@@ -40,7 +40,7 @@ namespace BusinessLayer.Concrete
 
         public List<Destination> TGetLast4Destinations()
         {
-            throw new NotImplementedException();
+            return _destinationDal.GetLast4Destinations();
         }
 
         public List<Destination> TGetList()
