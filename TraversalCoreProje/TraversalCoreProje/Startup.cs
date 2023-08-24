@@ -6,7 +6,9 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -50,8 +52,10 @@ namespace TraversalCoreProje
 			services.AddDbContext<Context>();
 
 			services.AddIdentity<AppUser, AppRole>()
+			
 			.AddEntityFrameworkStores<Context>()
-			.AddErrorDescriber<CustomIdentityValidator>()
+            .AddTokenProvider<DataProtectorTokenProvider<AppUser>>(TokenOptions.DefaultProvider)
+            .AddErrorDescriber<CustomIdentityValidator>()
 			.AddEntityFrameworkStores<Context>();
 
 
@@ -66,7 +70,7 @@ namespace TraversalCoreProje
 
             services.AddControllersWithViews().AddFluentValidation();
 
-			
+
 			
 
 
@@ -78,7 +82,14 @@ namespace TraversalCoreProje
 				config.Filters.Add(new AuthorizeFilter(policy));
 			});
 
-			services.AddMvc();
+
+            services.AddLocalization(
+                opt =>
+                {
+                    opt.ResourcesPath = "Resources";
+                });
+
+            services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
 
 			services.ConfigureApplicationCookie(options =>
 			{
@@ -115,6 +126,12 @@ namespace TraversalCoreProje
 			app.UseRouting();
 
 			app.UseAuthorization();
+
+			var supportedCultures = new[] { "en", "fr", "es", "gr", "tr" ,"de"};
+			var localitaionOptions = new RequestLocalizationOptions().SetDefaultCulture(supportedCultures[4])
+				.AddSupportedCultures(supportedCultures).AddSupportedUICultures(supportedCultures);
+
+			app.UseRequestLocalization(localitaionOptions);
 
 			app.UseEndpoints(endpoints =>
 			{
