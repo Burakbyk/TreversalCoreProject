@@ -9,7 +9,7 @@ using TraversalCoreProje.Areas.Admin.Models;
 namespace TraversalCoreProje.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [AllowAnonymous]
+   
     public class AccountController : Controller
     {
         private readonly IAccountService _accountService;

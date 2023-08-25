@@ -6,12 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace TraversalCoreProje.Areas.Member.Controllers
 {
     [Area("Member")]
-
+    [Route("Member/[controller]/[action]")]
     public class ReservationController : Controller
     {
         DestinationManager destinationManager = new DestinationManager
@@ -65,15 +66,18 @@ namespace TraversalCoreProje.Areas.Member.Controllers
         }
 
         [HttpPost]
-        public IActionResult NewReservation(Reservation p)
+        public async Task <IActionResult> NewReservation(Reservation p)
         {
-            p.AppUserId = 1;
+            var value =  await _userManager.FindByNameAsync(User.Identity.Name);
+            p.AppUserId = value.Id;
             p.Status = "Onay Bekliyor";
-            
 
-            reservationManager.TAdd(p);
+           
 
-            return RedirectToAction("MyCurrentReservation");
+           reservationManager.TAdd(p);
+           
+
+            return RedirectToAction("MyApprovalReservation");
         }
 
         public async Task<IActionResult> MyApprovalReservation()

@@ -11,7 +11,7 @@ using Newtonsoft.Json;
 namespace TraversalCoreProje.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [AllowAnonymous]
+  
     public class ApiExchangeController : Controller
     {
 

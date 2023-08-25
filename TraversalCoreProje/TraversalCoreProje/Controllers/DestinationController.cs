@@ -4,12 +4,14 @@ using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace TraversalCoreProje.Controllers
 {
     [AllowAnonymous]
+
     public class DestinationController : Controller
     {
         DestinationManager destinationManager = new DestinationManager
@@ -27,6 +29,7 @@ namespace TraversalCoreProje.Controllers
             var values = destinationManager.TGetList();
             return View(values);
         }
+
 
         [HttpGet]
         public  async Task<IActionResult> DestinationDetails(int id) 

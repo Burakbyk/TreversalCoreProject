@@ -10,7 +10,7 @@ using TraversalCoreProje.Areas.Admin.Models;
 
 namespace TraversalCoreProje.Areas.Admin.Controllers
 {
-    [AllowAnonymous]
+   
     [Area("Admin")]
     public class BookingHotelSearchController : Controller
     {

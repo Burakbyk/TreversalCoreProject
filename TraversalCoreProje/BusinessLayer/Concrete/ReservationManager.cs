@@ -17,6 +17,8 @@ namespace BusinessLayer.Concrete
         {
             _reservationDal = reservationDal;
         }
+        
+       
 
         public List<Reservation> GetListWithReservationByAccepted(int id)
         {
@@ -32,13 +34,6 @@ namespace BusinessLayer.Concrete
         {
           return  _reservationDal.GetListWithReservationByWaitApproval(id);
         }
-
-
-
-
-
-
-
 
 
 
